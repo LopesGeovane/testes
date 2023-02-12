@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div{
+            padding-left: 46vw;
+            padding-top: 48vh;
+        }
+
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            border-right: 4px solid;
+            width: 13ch;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(13),
+            blinking 0.5s infinite step-end alternate;
+        }
+
+        @keyframes typing {
+            from{
+                width: 0;
+            }
+        }
+
+        @keyframes blinking {
+            50%{
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello World!!</h1>
+    </div>
+</body>
+</html>
